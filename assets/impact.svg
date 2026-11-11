@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Impact: 4+ years in production, 50k+ transactions a month, 10k+ e-invoices a month, 1M+ records migrated">
+<title>Impact: 4+ years in production, 50k+ transactions a month, 10k+ e-invoices a month, 1M+ records migrated</title>
+<defs>
+<style>
+.mono{font-family:'Cascadia Code','JetBrains Mono','IBM Plex Mono',ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.sans{font-family:'IBM Plex Sans','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.rain{font-family:'MS Gothic','Yu Gothic','Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans Mono CJK JP','Noto Sans CJK JP',monospace}
+.col{animation:fall linear infinite}
+.cur{animation:blink 1.06s steps(1) infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+.base{stroke:#fff;stroke-opacity:.12;stroke-width:2}
+.stream{stroke:#26d970;stroke-width:2.2;stroke-dasharray:8 18;stroke-linecap:round;animation:flow 1.6s linear infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes flow{from{stroke-dashoffset:52}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="b"/>
+  <feFlood flood-color="#26d970" flood-opacity="0.5"/>
+  <feComposite in2="b" operator="in" result="g"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="topline" x1="0" x2="1"><stop offset="0" stop-color="#26d970" stop-opacity="0"/><stop offset=".5" stop-color="#26d970" stop-opacity=".9"/><stop offset="1" stop-color="#26d970" stop-opacity="0"/></linearGradient>
+</defs>
+<g transform="translate(0 2)">
+<rect x=".5" y=".5" width="278" height="195" rx="16" fill="#13131a" stroke="#26d970" stroke-opacity=".2"/>
+<rect x="24" y="0" width="231" height="2" fill="url(#topline)"/>
+<text class="sans" x="28" y="92" font-size="58" font-weight="700" fill="#26d970" filter="url(#glow)">4+</text>
+<text class="sans" x="28" y="134" font-size="19" font-weight="600" fill="#eef2f7">Years in production</text>
+<text class="mono" x="28" y="164" font-size="14" fill="#8b99ae">nationwide B2B ERP</text>
+</g>
+<g transform="translate(307 2)">
+<rect x=".5" y=".5" width="278" height="195" rx="16" fill="#13131a" stroke="#26d970" stroke-opacity=".2"/>
+<rect x="24" y="0" width="231" height="2" fill="url(#topline)"/>
+<text class="sans" x="28" y="92" font-size="58" font-weight="700" fill="#26d970" filter="url(#glow)">50k+</text>
+<text class="sans" x="28" y="134" font-size="19" font-weight="600" fill="#eef2f7">Transactions a month</text>
+<text class="mono" x="28" y="164" font-size="14" fill="#8b99ae">bank reconciliation</text>
+</g>
+<g transform="translate(614 2)">
+<rect x=".5" y=".5" width="278" height="195" rx="16" fill="#13131a" stroke="#26d970" stroke-opacity=".2"/>
+<rect x="24" y="0" width="231" height="2" fill="url(#topline)"/>
+<text class="sans" x="28" y="92" font-size="58" font-weight="700" fill="#26d970" filter="url(#glow)">10k+</text>
+<text class="sans" x="28" y="134" font-size="19" font-weight="600" fill="#eef2f7">E-invoices a month</text>
+<text class="mono" x="28" y="164" font-size="14" fill="#8b99ae">SEFAZ tax integration</text>
+</g>
+<g transform="translate(921 2)">
+<rect x=".5" y=".5" width="278" height="195" rx="16" fill="#13131a" stroke="#26d970" stroke-opacity=".2"/>
+<rect x="24" y="0" width="231" height="2" fill="url(#topline)"/>
+<text class="sans" x="28" y="92" font-size="58" font-weight="700" fill="#26d970" filter="url(#glow)">1M+</text>
+<text class="sans" x="28" y="134" font-size="19" font-weight="600" fill="#eef2f7">Records migrated</text>
+<text class="mono" x="28" y="164" font-size="14" fill="#8b99ae">legacy DBs → SQL Server</text>
+</g>
+</svg>

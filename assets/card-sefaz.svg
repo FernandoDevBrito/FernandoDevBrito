@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 410" width="600" height="410" role="img" aria-label="SEFAZ Fiscal Hub: Angular dashboard and C# .NET XML engine processing 10k+ e-invoices a month through SEFAZ web services">
+<title>SEFAZ Fiscal Hub: Angular dashboard and C# .NET XML engine processing 10k+ e-invoices a month through SEFAZ web services</title>
+<defs>
+<style>
+.mono{font-family:'Cascadia Code','JetBrains Mono','IBM Plex Mono',ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.sans{font-family:'IBM Plex Sans','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.rain{font-family:'MS Gothic','Yu Gothic','Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans Mono CJK JP','Noto Sans CJK JP',monospace}
+.col{animation:fall linear infinite}
+.cur{animation:blink 1.06s steps(1) infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+.base{stroke:#fff;stroke-opacity:.12;stroke-width:2}
+.stream{stroke:#26d970;stroke-width:2.2;stroke-dasharray:8 18;stroke-linecap:round;animation:flow 1.6s linear infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes flow{from{stroke-dashoffset:52}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#26d970" stroke-opacity=".05"/>
+</pattern>
+<filter id="soft" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cardclip"><rect width="600" height="410" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#cardclip)">
+<rect width="600" height="410" fill="#13131a"/>
+<rect width="600" height="206" fill="#0a0a0f"/>
+<rect width="600" height="206" fill="url(#grid)"/>
+<line x1="0" y1="206" x2="600" y2="206" stroke="#fff" stroke-opacity=".06"/>
+<rect x="32" y="61" width="120" height="70" rx="8" fill="#0a0a0f" stroke="#26d970" stroke-width="1.2" stroke-opacity=".6"/>
+<text class="mono" x="92.0" y="91" font-size="16" font-weight="700" fill="#26d970" text-anchor="middle">Angular SPA</text>
+<text class="mono" x="92.0" y="117" font-size="14" fill="#738095" text-anchor="middle">Dashboard UI</text>
+<line x1="152" y1="96" x2="190" y2="96" class="base"/><line x1="152" y1="96" x2="190" y2="96" class="stream" filter="url(#soft)"/><polygon points="189,90 198,96 189,102" fill="#26d970"/>
+<rect x="198" y="39.0" width="196" height="114" rx="8" fill="#0a0a0f" stroke="#26d970" stroke-width="1.8" stroke-opacity="1"/>
+<text class="mono" x="296.0" y="69" font-size="16" font-weight="700" fill="#26d970" text-anchor="middle">ASP.NET Core</text>
+<text class="mono" x="296.0" y="95" font-size="14" fill="#738095" text-anchor="middle">XML &amp; REST engine</text>
+<text class="mono" x="296.0" y="115" font-size="14" fill="#738095" text-anchor="middle">Auth · Validation</text>
+<text class="mono" x="296.0" y="135" font-size="14" fill="#738095" text-anchor="middle">10k+ NF-e / month</text>
+<line x1="394" y1="67" x2="432" y2="67" class="base"/><line x1="394" y1="67" x2="432" y2="67" class="stream" filter="url(#soft)"/><polygon points="431,61 440,67 431,73" fill="#26d970"/>
+<rect x="440" y="46" width="128" height="42" rx="6" fill="#0a0a0f" stroke="#26d970" stroke-width="1.2" stroke-opacity=".6"/>
+<text class="mono" x="504.0" y="73" font-size="16" font-weight="700" fill="#26d970" text-anchor="middle">SEFAZ</text>
+<line x1="394" y1="125" x2="432" y2="125" class="base"/><line x1="394" y1="125" x2="432" y2="125" class="stream" filter="url(#soft)"/><polygon points="431,119 440,125 431,131" fill="#26d970"/>
+<rect x="440" y="104" width="128" height="42" rx="6" fill="#0a0a0f" stroke="#26d970" stroke-width="1.2" stroke-opacity=".6"/>
+<text class="mono" x="504.0" y="131" font-size="16" font-weight="700" fill="#26d970" text-anchor="middle">SQL Server</text>
+<text class="mono" x="32" y="240" font-size="13" letter-spacing="1.4" fill="#26d970">FULL STACK · .NET &amp; ANGULAR · PRODUCTION</text>
+<text class="sans" x="32" y="274" font-size="26" font-weight="700" fill="#eef2f7">SEFAZ Fiscal Hub</text>
+<text class="sans" x="32" y="306" font-size="16.5" fill="#8b99ae">Angular dashboard and C# / .NET XML engine</text>
+<text class="sans" x="32" y="329" font-size="16.5" fill="#8b99ae">connected to SEFAZ web services, processing 10k+</text>
+<text class="sans" x="32" y="352" font-size="16.5" fill="#8b99ae">e-invoices (NF-e) a month.</text>
+<rect x="32" y="372" width="75" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="69" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">Angular</text>
+<rect x="114.6" y="372" width="98" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="164" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">TypeScript</text>
+<rect x="220.6" y="372" width="36" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="238" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">C#</text>
+<rect x="264.2" y="372" width="51" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="290" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">.NET</text>
+<rect x="323.4" y="372" width="98" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="372" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">SQL Server</text>
+<rect x=".5" y=".5" width="599" height="409" rx="15.5" fill="none" stroke="#26d970" stroke-opacity=".2"/>
+</g>
+</svg>

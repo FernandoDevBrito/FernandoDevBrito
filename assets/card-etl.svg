@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 410" width="600" height="410" role="img" aria-label="ERP Data Migration: C# and Python ETL that moved 1M+ records from four legacy databases into SQL Server with 100% referential integrity">
+<title>ERP Data Migration: C# and Python ETL that moved 1M+ records from four legacy databases into SQL Server with 100% referential integrity</title>
+<defs>
+<style>
+.mono{font-family:'Cascadia Code','JetBrains Mono','IBM Plex Mono',ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.sans{font-family:'IBM Plex Sans','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.rain{font-family:'MS Gothic','Yu Gothic','Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans Mono CJK JP','Noto Sans CJK JP',monospace}
+.col{animation:fall linear infinite}
+.cur{animation:blink 1.06s steps(1) infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+.base{stroke:#fff;stroke-opacity:.12;stroke-width:2}
+.stream{stroke:#26d970;stroke-width:2.2;stroke-dasharray:8 18;stroke-linecap:round;animation:flow 1.6s linear infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes flow{from{stroke-dashoffset:52}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#26d970" stroke-opacity=".05"/>
+</pattern>
+<filter id="soft" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cardclip"><rect width="600" height="410" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#cardclip)">
+<rect width="600" height="410" fill="#13131a"/>
+<rect width="600" height="206" fill="#0a0a0f"/>
+<rect width="600" height="206" fill="url(#grid)"/>
+<line x1="0" y1="206" x2="600" y2="206" stroke="#fff" stroke-opacity=".06"/>
+<rect x="32" y="61" width="120" height="70" rx="8" fill="#0a0a0f" stroke="#26d970" stroke-width="1.2" stroke-opacity=".6"/>
+<text class="mono" x="92.0" y="91" font-size="16" font-weight="700" fill="#26d970" text-anchor="middle">Legacy DBs</text>
+<text class="mono" x="92.0" y="117" font-size="14" fill="#738095" text-anchor="middle">4 engines</text>
+<line x1="152" y1="96" x2="190" y2="96" class="base"/><line x1="152" y1="96" x2="190" y2="96" class="stream" filter="url(#soft)"/><polygon points="189,90 198,96 189,102" fill="#26d970"/>
+<rect x="198" y="39.0" width="196" height="114" rx="8" fill="#0a0a0f" stroke="#26d970" stroke-width="1.8" stroke-opacity="1"/>
+<text class="mono" x="296.0" y="69" font-size="16" font-weight="700" fill="#26d970" text-anchor="middle">C# / Python ETL</text>
+<text class="mono" x="296.0" y="95" font-size="14" fill="#738095" text-anchor="middle">Validate</text>
+<text class="mono" x="296.0" y="115" font-size="14" fill="#738095" text-anchor="middle">Transform</text>
+<text class="mono" x="296.0" y="135" font-size="14" fill="#738095" text-anchor="middle">Load</text>
+<line x1="394" y1="96" x2="432" y2="96" class="base"/><line x1="394" y1="96" x2="432" y2="96" class="stream" filter="url(#soft)"/><polygon points="431,90 440,96 431,102" fill="#26d970"/>
+<rect x="440" y="61" width="128" height="70" rx="8" fill="#0a0a0f" stroke="#26d970" stroke-width="1.2" stroke-opacity=".6"/>
+<text class="mono" x="504.0" y="91" font-size="16" font-weight="700" fill="#26d970" text-anchor="middle">SQL Server</text>
+<text class="mono" x="504.0" y="117" font-size="14" fill="#738095" text-anchor="middle">Unified ERP</text>
+<line x1="296.0" y1="153.0" x2="296.0" y2="170" class="base"/><line x1="296.0" y1="153.0" x2="296.0" y2="170" class="stream" filter="url(#soft)"/><polygon points="290.0,169 296.0,178 302.0,169" fill="#26d970"/>
+<text class="mono" x="296.0" y="196" font-size="14" fill="#8b99ae" text-anchor="middle">Integrity checks</text>
+<text class="mono" x="32" y="240" font-size="13" letter-spacing="1.4" fill="#26d970">BACKEND · DATA · PRODUCTION</text>
+<text class="sans" x="32" y="274" font-size="26" font-weight="700" fill="#eef2f7">ERP Data Migration</text>
+<text class="sans" x="32" y="306" font-size="16.5" fill="#8b99ae">C# and Python ETL that moved 1M+ records from</text>
+<text class="sans" x="32" y="329" font-size="16.5" fill="#8b99ae">PostgreSQL, Oracle, MariaDB and Firebird into one</text>
+<text class="sans" x="32" y="352" font-size="16.5" fill="#8b99ae">SQL Server with 100% referential integrity.</text>
+<rect x="32" y="372" width="36" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="50" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">C#</text>
+<rect x="75.6" y="372" width="67" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="109" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">Python</text>
+<rect x="150.39999999999998" y="372" width="98" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="199" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">SQL Server</text>
+<rect x="256.4" y="372" width="98" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="305" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">PostgreSQL</text>
+<rect x="362.4" y="372" width="67" height="26" rx="6" fill="#fff" fill-opacity=".04" stroke="#26d970" stroke-opacity=".25"/><text class="mono" x="396" y="390" font-size="13" fill="#eef2f7" text-anchor="middle">Oracle</text>
+<rect x=".5" y=".5" width="599" height="409" rx="15.5" fill="none" stroke="#26d970" stroke-opacity=".2"/>
+</g>
+</svg>
